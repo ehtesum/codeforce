@@ -1,3 +1,3 @@
 # codeforce
 
-# Some solutions of CF basic problems
+# Some solutions for CF basic problems
