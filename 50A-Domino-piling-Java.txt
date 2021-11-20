@@ -1,0 +1,30 @@
+import java.util.Scanner;
+ 
+public class one {
+ 
+ 
+	public static void main(String[] args) {
+ 
+		Scanner sc = new Scanner (System.in);
+		
+		
+		
+		int m = sc.nextInt();
+		int n = sc.nextInt();
+		
+		int p = m * n;
+		
+		if( p % 2 == 0)
+		{
+			int q = p/2;
+			System.out.println(q);
+		}
+		
+		else 
+		{
+			int q = (p-1)/2;
+			System.out.println(q);
+		}
+		
+		sc.close();
+}}
